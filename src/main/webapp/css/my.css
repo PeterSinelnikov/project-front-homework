@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+#pagination button.active {
+    background-color: blue;
+    color: white;
+}
+.editButton {
+    background-image: url("/img/edit.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.deleteButton {
+    background-image: url("/img/delete.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.saveButton {
+    background-image: url("/img/save.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.cancelButton {
+    background-image: url("/img/cancel.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+#newAccountData {
+    display: table;
+}
+#newAccountData div {
+    display: table-row;
+}
+#newAccountData label {
+    display: table-cell;
+}
+#newAccountData input {
+    display: table-cell;
+}
+#newAccountData select {
+    display: table-cell;
+}
